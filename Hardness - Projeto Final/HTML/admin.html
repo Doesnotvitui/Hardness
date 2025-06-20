@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Painel Admin - Hardness</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' type='text/css' media='screen' href='../CSS/admin.css'>
+</head>
+<body>
+    <h1>Painel de Administração</h1>
+
+    <div style="text-align: center; margin-bottom: 30px;">
+        <button id="btnListar">Listar Usuários</button>
+    </div>
+
+    <div id="tabelaUsuarios" style="display: none;">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                    <th>Endereço</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="listaUsuarios">
+                <!-- Conteúdo gerado pelo JS -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="../JavaScript/admin.js" defer></script>
+</body>
+</html>
